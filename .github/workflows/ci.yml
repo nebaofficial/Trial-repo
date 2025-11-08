@@ -5,7 +5,7 @@ on: [push, pull_request] # When this workflow is triggered
 
 jobs:
   build: # A job is a group of steps
-    runs-on: ubuntu-latest # The virtual machine (OS) GitHub will use
+    runs-on: ubuntu-latest # yy  The virtual machine (OS) GitHub will use
 
     steps:
       - uses: actions/checkout@v4
